@@ -1,10 +1,8 @@
 *{
   /*border: solid red 1px;*/
   font-family: helvetica;
-  font-size: 22px;
   color: seashell;
   background-color; black;
-  opacity: 0.9;
   justify-content: center;
 }
 
@@ -21,15 +19,16 @@ header{
   height: 69px;
   justify-content: space-between;
   align-items: center;
-  color: seashell;
   position: fixed;
+  z-index: 20;
+  opacity: 0.9;
 }
 
 .nav{
   display: inline-flex;
   width: 400px;
   justify-content: space-around;
-
+  color: seashell;
 }
 
 .logo{
@@ -38,6 +37,60 @@ header{
   padding-left: 10px;
 }
 
-a{
-  color: seashell;
+.MissionContainer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: auto;
+  height: 769px;
+  background-color: black;
+
+}
+
+.mission{
+  display: inline-flex;
+  background-image: url("../photos/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.missioncontent{
+  display: block;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  background-color: black;
+  width: 100%;
+}
+
+.TOTM{
+  display: flex;
+  background-color: black;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.TOTMtitle{
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.TOTMcontent{
+  display: inline-flex;
+  max-width: 1000px;
+  background-color: black;
+  flex-wrap: wrap;
+}
+
+.img{
+  text-align: center;
+  margin: 10px;
 }
