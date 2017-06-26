@@ -2,9 +2,7 @@
   /*border: solid red 1px;*/
   font-family: helvetica;
   color: seashell;
-  background-color; black;
   justify-content: center;
-  opacity: 0.9;
 }
 
 html body{
@@ -13,7 +11,6 @@ html body{
 }
 
 header{
-  background-color: black;
   border-bottom: 1px solid seashell;
   display: flex;
   width: 100%;
@@ -22,7 +19,7 @@ header{
   align-items: center;
   position: fixed;
   z-index: 20;
-  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .nav{
@@ -30,12 +27,14 @@ header{
   width: 400px;
   justify-content: space-around;
   color: seashell;
+  opacity: 0.9;
 }
 
 .logo{
   display: inline-flex;
   height: 50px;
   padding-left: 10px;
+  opacity: 0.9;
 }
 
 .MissionContainer{
@@ -45,7 +44,7 @@ header{
   width: auto;
   height: 769px;
   background-color: black;
-
+  opacity: 0.9;
 }
 
 .mission{
@@ -56,6 +55,7 @@ header{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  opacity: 0.9;
 }
 
 .missioncontent{
@@ -65,6 +65,7 @@ header{
   vertical-align: middle;
   background-color: black;
   width: 100%;
+  opacity: 0.9;
 }
 
 .TOTM{
@@ -74,6 +75,7 @@ header{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  opacity: 0.9;
 }
 
 .TOTMtitle{
@@ -82,6 +84,7 @@ header{
   width: 100%;
   height: auto;
   text-align: center;
+  opacity: 0.9;
 }
 
 .TOTMcontent{
@@ -89,9 +92,50 @@ header{
   max-width: 1000px;
   background-color: black;
   flex-wrap: wrap;
+  opacity: 0.9;
 }
 
 .img{
   text-align: center;
   margin: 10px;
+  opacity: 0.9;
+}
+
+.locations{
+  display: inline-flex;
+  background-color: black;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.locationsContainer{
+  display: flex;
+  background-image: url("../photos/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.locationsTitle{
+  display: block;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.locationsAddress{
+  display: inline-flex;
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 1;
+}
+
+span.locationsAddress{
+  font-size: 22px;
 }
