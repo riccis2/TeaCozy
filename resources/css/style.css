@@ -10,7 +10,10 @@ html body{
   padding: 0;
 }
 
+/******************************Header******************************/
+
 header{
+  background-color: black;
   border-bottom: 1px solid seashell;
   display: flex;
   width: 100%;
@@ -19,23 +22,22 @@ header{
   align-items: center;
   position: fixed;
   z-index: 20;
-  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 0.9;
 }
 
 .nav{
   display: inline-flex;
   width: 400px;
   justify-content: space-around;
-  color: seashell;
-  opacity: 0.9;
 }
 
 .logo{
   display: inline-flex;
   height: 50px;
   padding-left: 10px;
-  opacity: 0.9;
 }
+
+/******************************Our Mission**************************/
 
 .MissionContainer{
   display: flex;
@@ -44,8 +46,6 @@ header{
   width: auto;
   height: 769px;
   background-color: black;
-  opacity: 0.9;
-  color: seashell;
 }
 
 .mission{
@@ -56,7 +56,6 @@ header{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  opacity: 0.9;
 }
 
 .missioncontent{
@@ -69,6 +68,8 @@ header{
   opacity: 0.9;
 }
 
+/****************************Tea of the Month***********************/
+
 .TOTM{
   display: flex;
   background-color: black;
@@ -76,8 +77,6 @@ header{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  opacity: 0.9;
-  color: seashell;
 }
 
 .TOTMtitle{
@@ -86,8 +85,6 @@ header{
   width: 100%;
   height: auto;
   text-align: center;
-  opacity: 0.9;
-  color: seashell;
 }
 
 .TOTMcontent{
@@ -95,15 +92,14 @@ header{
   max-width: 1000px;
   background-color: black;
   flex-wrap: wrap;
-  opacity: 0.9;
-  color: seashell;
 }
 
 .img{
   text-align: center;
   margin: 10px;
-  opacity: 0.9;
 }
+
+/*******************************Locations**************************/
 
 .locations{
   display: inline-flex;
@@ -111,7 +107,6 @@ header{
   width: 100%;
   flex-direction: column;
   align-items: center;
-  color: seashell;
 }
 
 .locationsContainer{
@@ -121,19 +116,16 @@ header{
   height: 500px;
   flex-direction: column;
   align-items: center;
-  color: seashell;
 }
 
 .locationsTitle{
   display: block;
   text-align: center;
   opacity: 0.9;
-  color: seashell;
 }
 
 .locationsAddress{
   display: inline-flex;
-  color: seashell;
   width: 300px;
   height: 300px;
   margin: 15px 20px;
@@ -148,12 +140,13 @@ span.locationsAddress{
   font-size: 22px;
 }
 
+/****************************Footer*****************************/
+
 footer{
   display: flex;
   height: 200px;
   width: 100%;
   background-color: black;
-  color: seashell;
   flex-direction: column;
   align-items: center;
 }
@@ -166,3 +159,5 @@ footer{
   justify-content: flex-start;
   height: 50px;
 }
+
+/* By James Ricci */
